@@ -1,0 +1,146 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	margin-left:150px;
+	margin-right:150px;
+	font-family:'Kumbh Sans';
+}
+body header{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	height:5rem;
+	width:100%;
+	border-bottom:2px solid hsl(220, 14%, 75%);
+}
+body header .header{
+	display:flex;
+	flex-direction:row;
+}
+body header .header .logo{
+	padding-top:12px;
+}
+body header .header .options ul{
+	display:flex;
+	flex-direction:row;
+}
+body header .header .options ul li, a{
+	text-decoration:none;
+	list-style:none;
+	color:hsl(220, 14%, 75%);
+}
+.nav__list li{
+	padding:30px 40px 0px 40px;
+}
+div.profile{
+	align-items:center;
+	display:flex;
+	align-content:flex-end;
+}
+.profile .cart_logo{
+	padding-right:2rem;
+}
+body .main{
+	display:flex;
+	flex-direction:row;
+}
+body .main .leftside{
+	padding-left:2rem;
+	width:700px;
+	margin-top:100px;
+}
+body .main .leftside .more_photos img{
+	margin:10px 10px 5px 10px;
+}
+body .main .leftside .more_photos img:hover{
+	border:2px solid #d24e01;
+	opacity:0.6;
+}
+body .main .leftside .mainimg img{
+	border-radius:10px;
+	}
+.more_photos .ptimg2{
+	border-radius:5px;
+}
+body .main .rightside{
+	width:450px;
+	padding-top:75px;
+	margin-top:100px;
+	margin-right:20px;
+}
+.rightside .priceo{
+	display:flex;
+	flex-direction:row;
+}
+.rightside .priceo .offer{
+	margin-left:10px;
+	padding:8px 6px;
+}
+.rightside .priceo .price{
+	padding:3px 0px;
+	font-size:1.5rem;
+}
+.rightside .add_buttons{
+	display:flex;
+	flex-direction:row;
+}
+.rightside .add_buttons .quantity{
+	display:flex;
+	flex-direction:row;
+	padding:10px 40px;
+	justify-content:center;
+	margin:10px 10px;
+	background-color:hsl(223, 64%, 98%);
+	border-radius:10px;
+}
+.rightside .add_buttons .quantity .minus{
+	margin:6px 20px 0px 0px;	
+}
+.rightside .add_buttons .quantity .plus{
+	margin:3px 0px 0px 25px;
+}
+.rightside .add_buttons .add_to_cart{
+	display:flex;
+	flex-direction:row;
+	padding:10px 40px;
+	justify-content:center;
+	margin:10px 10px;
+	background-color:hsl(26, 100%, 55%);
+	border-radius:10px;
+	color:#ffffff;
+}
+.rightside .add_buttons .add_to_cart img{
+	margin-right:25px;
+}
+.rightside div .brand{
+	padding-bottom:10px;
+	color:hsl(26, 100%, 55%);
+}
+.rightside div h2{
+	font-size:2rem;
+	width:300px;
+	padding:20px 0px 30px 0px;
+}
+.rightside .discription{
+	width:400px;
+	color: hsl(220, 14%, 75%);
+}
+.rightside .priceo{
+	padding:20px 5px 10px 0px;
+}
+.rightside .priceo .price{
+	font-size:1.5rem;
+}
+.rightside .priceo .offer{
+	color:hsl(26, 100%, 55%);
+	background-color:hsl(25, 100%, 94%);
+	border-radius:10px;
+}
+.rightside .discount{
+	color:hsl(220, 14%, 75%);
+}
+.rightside .add_buttons{
+	margin-top:30px;
+}
